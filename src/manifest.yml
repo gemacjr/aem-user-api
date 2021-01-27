@@ -1,0 +1,7 @@
+applications:
+  - name: ecom-aem-user-api
+    memory: 1024M
+    instances: 1
+    stack: cflinuxfs3
+    buildpack: java_buildpack
+    path: target/user-api-0.0.1-SNAPSHOT.jar
